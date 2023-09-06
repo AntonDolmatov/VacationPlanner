@@ -7,7 +7,7 @@ public class VacationPlanner {
             if (money > threshold) {
                 i++;
                 money = money - expenses;
-                money = money - money / 3;
+                money = money - (money - money / 3);
             } else {
                 money = money + income;
                 money = money - expenses;

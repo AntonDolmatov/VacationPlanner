@@ -6,5 +6,6 @@ public class Main {
 
         VacationPlanner service = new VacationPlanner();
         System.out.println(service.calculateVacationMonths(10_000, 3_000, 20_000));
+
     }
 }
