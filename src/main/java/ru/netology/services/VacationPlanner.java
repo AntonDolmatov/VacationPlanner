@@ -4,7 +4,7 @@ public class VacationPlanner {
         int i = 0;
         int money = 0;
         for (int month = 1; month < 12; month++) {
-            if (money > threshold) {
+            if (money >= threshold) {
                 i++;
                 money = money - expenses;
                 money = money - (money - money / 3);
